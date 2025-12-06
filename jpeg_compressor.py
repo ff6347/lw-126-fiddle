@@ -191,17 +191,17 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Compress a single image with 80% quality
-  %(prog)s image.jpg -q 80
+  # Compress a single image with quality 80
+  jpeg_compressor.py image.jpg -q 80
 
   # Compress and save to a different file
-  %(prog)s input.jpg -o output.jpg -q 75
+  jpeg_compressor.py input.jpg -o output.jpg -q 75
 
   # Compress all JPEGs in a directory
-  %(prog)s /path/to/images/ -q 85
+  jpeg_compressor.py /path/to/images/ -q 85
 
   # Compress recursively and save to output directory
-  %(prog)s /path/to/images/ -o /path/to/output/ -r -q 80
+  jpeg_compressor.py /path/to/images/ -o /path/to/output/ -r -q 80
         """
     )
 

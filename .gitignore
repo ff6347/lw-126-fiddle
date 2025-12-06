@@ -1,0 +1,17 @@
+# Test images and compressed outputs
+*.jpg
+*.jpeg
+test_images/
+test_images_compressed/
+compressed_*.jpg
+sample_*.jpg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
